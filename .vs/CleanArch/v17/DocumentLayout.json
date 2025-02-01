@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{510B6937-50F1-44D2-9B2B-E276B90C9A99}|CleanArch.Application\\CleanArch.Application.csproj|c:\\users\\amin\\source\\repos\\cleancodearch\\cleanarch.application\\mappingprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{510B6937-50F1-44D2-9B2B-E276B90C9A99}|CleanArch.Application\\CleanArch.Application.csproj|solutionrelative:cleanarch.application\\mappingprofiles\\productmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4102C0E8-AE04-4C62-A384-0290A90DEE23}|CleanArch.Presentation\\CleanArch.Presentation.csproj|c:\\users\\amin\\source\\repos\\cleancodearch\\cleanarch.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4102C0E8-AE04-4C62-A384-0290A90DEE23}|CleanArch.Presentation\\CleanArch.Presentation.csproj|solutionrelative:cleanarch.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Application\\MappingProfiles\\ProductMappingProfile.cs",
-              "RelativeDocumentMoniker": "CleanArch.Application\\MappingProfiles\\ProductMappingProfile.cs",
-              "ToolTip": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Application\\MappingProfiles\\ProductMappingProfile.cs",
-              "RelativeToolTip": "CleanArch.Application\\MappingProfiles\\ProductMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T15:51:55.112Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -44,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArch.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Presentation\\Program.cs",
+              "RelativeToolTip": "CleanArch.Presentation\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T16:29:23.523Z",
+              "EditorCaption": ""
             }
           ]
         },

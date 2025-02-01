@@ -1,4 +1,8 @@
-﻿using System;
+﻿using CleanArch.Domain.Entities;
+using CleanArch.Domain.Repositories;
+using CleanArch.Persistence.Contexts;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

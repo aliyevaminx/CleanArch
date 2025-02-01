@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rFN8V1kS474=",
+  "dgSpecHash": "08Q6K8eYwaM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Domen\\CleanArch.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Amin\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512"
+  ],
   "logs": []
 }

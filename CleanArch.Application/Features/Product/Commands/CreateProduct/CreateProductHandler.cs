@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
 using CleanArch.Application.UnitOfWork;
 using CleanArch.Application.Wrappers;
+using CleanArch.Domain.Repositories;
 using Core.Exceptions;
-using Data.Repositories.Product.Read;
-using Data.Repositories.Product.Write;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -41,7 +40,7 @@ public class CreateProductHandler : IRequestHandler<CreateProductCommand, Respon
 		if (product is not null)
 			throw new ValidationException("The product is already exist");
 
-		product = _mapper.Map<Core.Entities.Product>(request);
+		product = _mapper.Map<Domain.Entities.Product>(request);
 
 		await _productWriteRepository.CreateAsync(product);
 		await _unitOfWork.CommitAsync();

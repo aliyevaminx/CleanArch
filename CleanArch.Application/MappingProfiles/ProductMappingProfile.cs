@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using CleanArch.Application.Features.Product.Commands.CreateProduct;
+using CleanArch.Application.Features.Product.Dtos;
+using CleanArch.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,15 +14,8 @@ public class ProductMappingProfile : Profile
 {
 	public ProductMappingProfile()
 	{
-		CreateMap<CreateProductCommand, Entities.Product>();
+		CreateMap<CreateProductCommand, Product>();
 
 		CreateMap<Product, ProductDto>();
-
-		CreateMap<UpdateProductCommand, Product>()
-			.ForMember(dest => dest.Photo, opt =>
-			{
-				opt.Condition(src => src.Photo is not null);
-				opt.MapFrom(src => src.Photo);
-			});
 	}
 }
