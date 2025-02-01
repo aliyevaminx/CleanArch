@@ -15,16 +15,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-//builder.Services.AddSwaggerGen(x =>
-//{
-//	//x.SwaggerDoc("v1", new OpenApiInfo
-//	//{
-//	//	Title = "MyProductAPI"
-//	//});
+//builder.Services.AddSwaggerGen();
 
-//	//x.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Presentation.xml"));
-//});
+builder.Services.AddSwaggerGen(x =>
+{
+	x.SwaggerDoc("v1", new OpenApiInfo
+	{
+		Title = "CleanArchAPI"
+	});
+
+	x.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "CleanArch.Presentation.xml"));
+});
 
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("Default"), x => x.MigrationsAssembly("CleanArch.Persistence")));
 

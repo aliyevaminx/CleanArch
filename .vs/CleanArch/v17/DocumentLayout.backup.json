@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4102C0E8-AE04-4C62-A384-0290A90DEE23}|CleanArch.Presentation\\CleanArch.Presentation.csproj|c:\\users\\amin\\source\\repos\\cleancodearch\\cleanarch.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4102C0E8-AE04-4C62-A384-0290A90DEE23}|CleanArch.Presentation\\CleanArch.Presentation.csproj|solutionrelative:cleanarch.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4102C0E8-AE04-4C62-A384-0290A90DEE23}|CleanArch.Presentation\\CleanArch.Presentation.csproj|c:\\users\\amin\\source\\repos\\cleancodearch\\cleanarch.presentation\\cleanarch.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4102C0E8-AE04-4C62-A384-0290A90DEE23}|CleanArch.Presentation\\CleanArch.Presentation.csproj|solutionrelative:cleanarch.presentation\\cleanarch.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CleanArch.Presentation",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Presentation\\CleanArch.Presentation.csproj",
+              "RelativeDocumentMoniker": "CleanArch.Presentation\\CleanArch.Presentation.csproj",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Presentation\\CleanArch.Presentation.csproj",
+              "RelativeToolTip": "CleanArch.Presentation\\CleanArch.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-01T17:00:17.011Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -40,7 +57,7 @@
               "RelativeDocumentMoniker": "CleanArch.Presentation\\Program.cs",
               "ToolTip": "C:\\Users\\Amin\\source\\repos\\CleanCodeArch\\CleanArch.Presentation\\Program.cs",
               "RelativeToolTip": "CleanArch.Presentation\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABoAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T16:29:23.523Z",
               "EditorCaption": ""
